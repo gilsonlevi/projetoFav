@@ -1,0 +1,23 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2d2eba;
+    height: 120px;
+}
+
+.titulo  {
+    font-size: 3rem;
+    color: #fff;
+    background-color: #2d2eba;
+    font-family: SignikaBold,sans-serif;
+}
+
+.subtitulo {
+    font-size: 2rem;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
