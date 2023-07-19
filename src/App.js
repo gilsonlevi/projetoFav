@@ -13,9 +13,9 @@ function App() {
     <>
     {/* Nosso cabecalho tem uma propriedade  */}
 
-    <Cabecalho logo= "header-logo.png" titulo="FAVORITO" subtitulo="Melhor site de vendas da historia"/>
+    <Cabecalho logo= "header-logo.png" titulo="Seu Jeito Favorito" subtitulo="Melhor site de vendas da historia"/>
     <Conteudo/>
-    <Rodape instagram= "@favorito"/>
+    <Rodape instagram= "@favorito" logo= "header-logo.png"/>
     </>
   );
 }
