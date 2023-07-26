@@ -9,8 +9,7 @@ export default function Rodape(props) {
         <div className={styles.footerIcon}>
           <img className={styles.img} src={props.logo} alt="imagem"/>
           <div className={styles.navFooter}>
-          <p className={styles.dataCorrente}>{mostraData()}</p>
-
+            <p className={styles.dataCorrente}>{mostraData()}</p>
             <p>Inicio</p>
             <p>Sobre-nós</p>
             <p>Suporte</p>
@@ -38,11 +37,9 @@ export default function Rodape(props) {
       
     </div>
   )
-
   function mostraData(){
     const date = new Date();
     return date.toLocaleDateString();
   }
-  
 }
 

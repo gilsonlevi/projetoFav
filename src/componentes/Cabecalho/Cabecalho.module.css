@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 .navBar {
     display: flex;
     justify-content: space-around;
@@ -10,14 +12,23 @@
     font-size: 3rem;
     color: #fff;
     background-color: #2d2eba;
-    font-family: SignikaBold,sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
-.subtitulo {
-    font-size: 2rem;
-}
 
 .img {
     width: 300px;
     height: 200px;
 }
+
+.nav {
+    display: flex;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.menu {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff;
+}
+

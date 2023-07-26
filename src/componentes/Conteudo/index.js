@@ -2,16 +2,17 @@ import React from 'react'
 
 //Esse componente exporta uma função
 //Uma função representa o conteúdo
-export default function Conteudo() {
+export default function Conteudo(props) {
   return (
     <>
-      <h2>Bem vindo ao site</h2>
-      <article>
-          <h3>
-            Arroz parborizado
-          </h3>
-          <p>39,90</p>
-      </article>
+      <div>
+        <article>
+          <img src={props.img} alt="Imagem"/>
+          <p>NESCAFÉ DOLCE GUSTO Mocha 10 cápsulas
+            R$ 20,90
+            R$ 17,97 no Pix</p>
+        </article>
+      </div>
     </>
   )
 }
