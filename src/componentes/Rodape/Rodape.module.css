@@ -3,8 +3,8 @@
     display: absolute;
     bottom: 0px;
     color:#fff;
-    position: fixed;
     width: 100%;
+    position: relative;
 }
 
 .img {

@@ -15,6 +15,13 @@ function App() {
 
     <Cabecalho logo= "header-logo.png" titulo="Seu Jeito Favorito" subtitulo="Melhor site de vendas da historia"/>
     <Conteudo/>
+    <Conteudo/>
+    <Conteudo/>
+    <Conteudo/>
+    <Conteudo/>
+    <Conteudo/>
+    <Conteudo/>
+    <Conteudo/>
     <Rodape instagram= "@favorito" logo= "header-logo.png"/>
     </>
   );
