@@ -1,11 +1,11 @@
 import React from 'react'
-
+import styles from './Conteudo.module.css'
 //Esse componente exporta uma função
 //Uma função representa o conteúdo
 export default function Conteudo(props) {
   return (
     <>
-      <div>
+      <div className={styles.conteudo}>
         <article>
           <img src={props.img} alt="Imagem"/>
           <p>NESCAFÉ DOLCE GUSTO Mocha 10 cápsulas
