@@ -6,7 +6,7 @@ export default function Cabecalho(props) {
         <>
         <div className={styles.navBar}>
           <img className={styles.img} src={props.logo} alt="imagem"/>
-          <p className={styles.titulo}>{props.titulo}</p>
+          <p className={styles.titulo}> {props.titulo}</p>
           <p className={`${styles.titulo} ${styles.subtitulo}`}>{props.subtitulo}</p>
         </div>
         </>    
