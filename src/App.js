@@ -13,14 +13,16 @@ function App() {
     <>
     {/* Nosso cabecalho tem uma propriedade  */}
 
-    <Cabecalho logo= "header-logo.png" titulo="Seu Jeito Favorito" subtitulo="Melhor site de vendas da historia"/>
-    <Conteudo img="imgCafe.webp"/>
-    <Conteudo img="imgCafe.webp"/>
-    <Conteudo img="imgCafe.webp"/>
-    <Conteudo img="imgCafe.webp"/>
-    <Conteudo img="imgCafe.webp"/>
-    <Conteudo img="imgCafe.webp"/>
-    <Rodape instagram= "@favorito" logo= "header-logo.png"/>
+    <Cabecalho logo="imagens/header-logo.png" titulo="Seu Jeito Favorito" subtitulo="Melhor site de vendas da historia"/>
+    <Conteudo img="imagens/imgCafe.webp"/>
+    <Conteudo img="imagens/imgCafe.webp"/>
+    <Conteudo img="imagens/imgCafe.webp"/>
+    <Conteudo img="imagens/imgCafe.webp"/>
+    <Conteudo img="imagens/imgCafe.webp"/>
+    <Conteudo img="imagens/imgCafe.webp"/>
+    <Conteudo img="imagens/imgCafe.webp"/>
+    <Conteudo img="imagens/imgCafe.webp"/>
+    <Rodape logo= "imagens/header-logo.png"/>
     </>
   );
 }
