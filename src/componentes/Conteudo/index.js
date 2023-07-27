@@ -5,6 +5,7 @@ import styles from './Conteudo.module.css'
 export default function Conteudo(props) {
   return (
     <>
+    <div className={styles.conteiner}> 
       <div className={styles.conteudo}>
         <article>
           <img src={props.img} alt="Imagem"/>
@@ -13,6 +14,8 @@ export default function Conteudo(props) {
             R$ 17,97 no Pix</p>
         </article>
       </div>
+    </div>
+
     </>
   )
 }

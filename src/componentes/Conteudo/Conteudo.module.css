@@ -1,6 +1,11 @@
-.conteudo {
+/* .conteudo {
     display: flex;
     align-items: center;
     justify-content: center;
     border: solid black 1px;
+} */
+
+.conteiner {
+    /* display: flex;
+    flex-direction: row; */
 }
