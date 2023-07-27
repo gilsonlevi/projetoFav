@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2d2eba;
+    height: 120px;
+}
+
+.menu {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff;
+}

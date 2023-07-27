@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Cabecalho.module.css'
+import Menu from '../Menu/'
 
 export default function Cabecalho(props) {
   return (
@@ -7,11 +8,7 @@ export default function Cabecalho(props) {
         <div className={styles.navBar}>
           <img className={styles.img} src={props.logo} alt="imagem"/>
           <p className={styles.titulo}> {props.titulo}</p>
-          <ul className={styles.nav}>
-            <li className={styles.menu}><a className={styles.menu} href="">Home</a></li>
-            <li className={styles.menu}><a className={styles.menu} href="">Sobre nós</a></li>
-            <li className={styles.menu}><a className={styles.menu} href="">Contato</a></li>
-          </ul>
+          <Menu/>
         </div>
         </>    
   )
