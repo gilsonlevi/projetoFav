@@ -5,6 +5,10 @@ import Conteudo,{OlaMundo} from './componentes/Conteudo';
 //Arquivo App JSX
 //Componente funcional = porque ele é uma função
 function App() {
+
+  alert("Olá")
+  
+  
   OlaMundo();
   
   //Todo componente deve retornar um html entre parenteses
