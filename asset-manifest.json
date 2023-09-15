@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/projetoFav/static/css/main.814cafc4.css",
+    "main.js": "/projetoFav/static/js/main.fdd19688.js",
+    "static/js/787.a618c441.chunk.js": "/projetoFav/static/js/787.a618c441.chunk.js",
+    "index.html": "/projetoFav/index.html",
+    "main.814cafc4.css.map": "/projetoFav/static/css/main.814cafc4.css.map",
+    "main.fdd19688.js.map": "/projetoFav/static/js/main.fdd19688.js.map",
+    "787.a618c441.chunk.js.map": "/projetoFav/static/js/787.a618c441.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.814cafc4.css",
+    "static/js/main.fdd19688.js"
+  ]
+}
