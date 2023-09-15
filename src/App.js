@@ -2,11 +2,12 @@ import './App.css';
 import Cabecalho from './componentes/Cabecalho';
 import Rodape from './componentes/Rodape';
 import Conteudo,{OlaMundo} from './componentes/Conteudo';
+import Estados from './exemplos/Estados';
 //Arquivo App JSX
 //Componente funcional = porque ele é uma função
 function App() {
 
-  alert("Olá")
+  // alert("Olá")
   
   
   OlaMundo();
@@ -27,6 +28,7 @@ function App() {
     <Conteudo img="imagens/imgCafe.webp"/>
     <Conteudo img="imagens/imgCafe.webp"/>
     <Rodape logo= "imagens/header-logo.png"/>
+    {/* <Estados/> */}
     </>
   );
 }
